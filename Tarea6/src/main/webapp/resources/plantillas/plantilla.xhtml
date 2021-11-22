@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' ?> 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:b="http://bootsfaces.net/ui">
+      xmlns:b="http://bootsfaces.net/ui">
+  
+
+    <h:head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <h:outputStylesheet library="css" name="default.css"/>
+        <h:outputStylesheet library="css" name="cssLayout.css"/>
+        <title>Sistema</title>
+    </h:head>
+
+    <h:body>
+
+        <ui:insert name="top">
+            <b:navBar fluid="true" brand="Tienda" brand-href="principal.xhtml" inverse="true">
+                <b:navbarLinks>
+                    <b:navLink value="Inicio" href="/Tarea6-1/faces/principal.xhtml"/>
+                    <b:navLink value="Musica" href="/Tarea6-1/faces/musica.xhtml"/>
+                    <b:navLink value="Clientes" href="/Tarea6-1/faces/list.xhtml"/>
+                    <b:navLink value="Salir" href="/Tarea6-1/faces/index.xhtml"/>  
+                </b:navbarLinks> 
+            </b:navBar>
+            
+        </ui:insert>
+
+        <div id="content" class="center_content">
+            <ui:insert name="content">Content</ui:insert>
+        </div>
+
+    </h:body>
+
+</html>

@@ -1,0 +1,78 @@
+
+#top {
+    position: relative; 
+    color: white;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+
+#bottom {
+    position: relative;
+    background-color: #c2dfef;
+    padding: 5px;
+    margin: 10px 0px 0px 0px;
+}
+
+#left {
+    float: left;
+    background-color: #ece3a5;
+    padding: 5px;
+    width: 150px;
+}
+
+#right {
+    float: right;
+    background-color: #ece3a5;
+    padding: 5px;
+    width: 150px;
+}
+
+.center_content {
+    position: relative;
+    padding: 14px 16px;
+}
+
+.left_content {
+    background-color: #dddddd;
+    padding: 5px;
+    margin-left: 170px;
+}
+
+.right_content {
+    background-color: #dddddd;
+    padding: 5px;
+    margin: 0px 170px 0px 170px;
+}
+
+ui-datatable-even{
+    background: white;
+}
+
+
+body{
+    background-image: url("https://wallpaperaccess.com/full/1580217.jpg");
+    background-repeat:no-repeat;
+    background-size:100%,100%;
+    font-family: Helvetica, sans-serif;
+    font-size: 17px;
+    color: white;
+}
+.welcome {
+    color: white;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tablestyle{
+    background-color: white;
+}
+
+

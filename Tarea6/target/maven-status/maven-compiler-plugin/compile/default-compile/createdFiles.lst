@@ -1,0 +1,9 @@
+controller\UsuarioController.class
+modelo\Estudiante.class
+gestion\UsuarioGestion.class
+controller\EstudianteController.class
+gestion\EstudianteGestion.class
+modelo\Conexion.class
+sc403\lec03\resources\JavaEE8Resource.class
+sc403\lec03\JAXRSConfiguration.class
+modelo\Usuario.class
